@@ -26,4 +26,4 @@ packer {
 
 #### Builder
 
-- [builder](packer/integrations/BrandonRomano/openstack/latest/components/builder/openstack) - The OpenStack Packer builder is able to create new images for use with OpenStack.
+- [openstack](/packer/integrations/BrandonRomano/openstack/latest/components/builder/openstack) - The OpenStack Packer builder is able to create new images for use with OpenStack.
