@@ -8,18 +8,23 @@ provide temporary access to the server while the image is being created. This
 simplifies configuration quite a bit.
 
 ## Installation
-
-Packer v1.7.0 and later
+To install this plugin add this code into your Packer configuration and run [packer init](/packer/docs/commands/init)
 
 ```hcl
 packer {
   required_plugins {
     openstack = {
       version = "~> 1"
-      source  = "github.com/hashicorp/openstack"
+      source = "github.com/hashicorp/openstack"
     }
   }
 }
+```
+
+Alternatively, you can use `packer plugins install` to manage installation of this plugin.
+
+```sh
+packer plugins install github.com/hashicorp/openstack
 ```
 
 ### Components
