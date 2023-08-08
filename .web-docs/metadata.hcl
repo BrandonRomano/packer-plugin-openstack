@@ -3,7 +3,7 @@
 integration {
   name = "OpenStack"
   description = "The OpenStack multi-component plugin can be used with HashiCorp Packer to create custom images."
-  identifier = "packer/BrandonRomano/openstack"
+  identifier = "packer/hashicorp/openstack"
   component {
     type = "builder"
     name = "OpenStack"
